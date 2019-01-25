@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ordennasa,,,2019-01-24 19:06:17,2019-01-24 19:06:19,"2,045s",FAILED
+,,,,,,
+Test Cases/nasa,,,2019-01-24 19:06:18,2019-01-24 19:06:19,"1,537s",FAILED
+"navigateToUrl(""https://www.nasa.gov/"")",,,2019-01-24 19:06:18,2019-01-24 19:06:19,"0,737s",FAILED

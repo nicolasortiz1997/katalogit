@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ordennasa,,,2019-01-24 19:55:06,2019-01-24 19:55:08,"2,197s",FAILED
+,,,,,,
+Test Cases/git,,,2019-01-24 19:55:06,2019-01-24 19:55:08,"1,628s",FAILED
+"setText(findTestObject(""Object Repository/git/Page_Sign in  GitLab/input_Username or email_userlo""), ""nico.ortiz.a"")",,,2019-01-24 19:55:07,2019-01-24 19:55:08,"0,848s",FAILED
