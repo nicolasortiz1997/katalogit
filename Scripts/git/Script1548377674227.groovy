@@ -14,11 +14,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Object Repository/git/Page_Sign in  GitLab/input_Username or email_userlo'), 'nico.ortiz.a')
+WebUI.click(findTestObject('Object Repository/full/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/git/Page_Sign in  GitLab/input_Password_userpassword'), 'WzB9LStu1V7KFtg1JR/S2w==')
+WebUI.setText(findTestObject('Object Repository/full/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.click(findTestObject('Object Repository/git/Page_Projects  Dashboard  GitLab/span_caf_virtual'))
+WebUI.setEncryptedText(findTestObject('Object Repository/full/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+
+WebUI.click(findTestObject('Object Repository/full/Page_CURA Healthcare Service/button_Login'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/full/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'), 
+    'Hongkong CURA Healthcare Center', true)
+
+WebUI.click(findTestObject('Object Repository/full/Page_CURA Healthcare Service/input_Apply for hospital readm'))
+
+WebUI.click(findTestObject('Object Repository/full/Page_CURA Healthcare Service/input_Medicaid_programs'))
+
+WebUI.click(findTestObject('Object Repository/full/Page_CURA Healthcare Service/div_Visit Date (Required)_inpu'))
+
+WebUI.click(findTestObject('Object Repository/full/Page_CURA Healthcare Service/td_15'))
+
+WebUI.setText(findTestObject('Object Repository/full/Page_CURA Healthcare Service/textarea_Comment_comment'), 'hola')
+
+WebUI.click(findTestObject('Object Repository/full/Page_CURA Healthcare Service/button_Book Appointment'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ordennasa,Chrome 71.0.3578.98,,2019-01-28 11:16:14,2019-01-28 11:16:28,"13,977s",PASSED
+,,,,,,
+Test Cases/katalon,Chrome 71.0.3578.98,,2019-01-28 11:16:14,2019-01-28 11:16:28,"13,349s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-28 11:16:15,2019-01-28 11:16:21,"5,424s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2019-01-28 11:16:21,2019-01-28 11:16:23,"2,246s",PASSED
+"click(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.98,,2019-01-28 11:16:23,2019-01-28 11:16:23,"0,621s",PASSED
+"setText(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.98,,2019-01-28 11:16:23,2019-01-28 11:16:24,"0,392s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 71.0.3578.98,,2019-01-28 11:16:24,2019-01-28 11:16:24,"0,555s",PASSED
+"click(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.98,,2019-01-28 11:16:24,2019-01-28 11:16:25,"0,495s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C""), ""Seoul CURA Healthcare Center"", true)",Chrome 71.0.3578.98,,2019-01-28 11:16:25,2019-01-28 11:16:25,"0,504s",PASSED
+"click(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/input_Apply for hospital readm""))",Chrome 71.0.3578.98,,2019-01-28 11:16:25,2019-01-28 11:16:26,"0,271s",PASSED
+"click(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/label_None""))",Chrome 71.0.3578.98,,2019-01-28 11:16:26,2019-01-28 11:16:26,"0,202s",PASSED
+"click(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/div_Visit Date (Required)_inpu""))",Chrome 71.0.3578.98,,2019-01-28 11:16:26,2019-01-28 11:16:26,"0,180s",PASSED
+"click(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/td_29""))",Chrome 71.0.3578.98,,2019-01-28 11:16:26,2019-01-28 11:16:26,"0,206s",PASSED
+"setText(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/textarea_Comment_comment""), ""see you"")",Chrome 71.0.3578.98,,2019-01-28 11:16:26,2019-01-28 11:16:26,"0,261s",PASSED
+"click(findTestObject(""Object Repository/prueba11/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 71.0.3578.98,,2019-01-28 11:16:26,2019-01-28 11:16:27,"0,354s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-28 11:16:27,2019-01-28 11:16:28,"0,744s",PASSED

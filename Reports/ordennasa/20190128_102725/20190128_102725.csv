@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ordennasa,,,2019-01-28 10:27:30,2019-01-28 10:27:32,"2,266s",FAILED
+,,,,,,
+Test Cases/git,,,2019-01-28 10:27:30,2019-01-28 10:27:32,"1,589s",FAILED
+"click(findTestObject(""Object Repository/full/Page_CURA Healthcare Service/a_Make Appointment""))",,,2019-01-28 10:27:31,2019-01-28 10:27:32,"0,788s",FAILED

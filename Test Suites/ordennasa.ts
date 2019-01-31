@@ -11,9 +11,9 @@
    <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <testSuiteGuid>df7aadcc-2049-4e1a-9c63-4938f184dba9</testSuiteGuid>
    <testCaseLink>
-      <guid>38483a9f-57f8-4395-a876-b462762b716b</guid>
+      <guid>a8c69486-9f6d-499e-ba23-160bcb077066</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/git</testCaseId>
+      <testCaseId>Test Cases/katalon</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
